@@ -16,7 +16,7 @@ const EmployeesAddForm = () => {
           placeholder="З/П в $"
         />
 
-        <button type="submit" className="btn btn-outline-light">
+        <button type="submit" className="btn btn-success">
           Добавить
         </button>
       </form>
