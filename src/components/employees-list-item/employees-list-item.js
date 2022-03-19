@@ -3,8 +3,8 @@ import { Component } from "react";
 import "./employees-list-item.css";
 
 class EmployeesListItem extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
       increase: false,
